@@ -1,0 +1,21 @@
+server:
+  port: 8050
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  application:
+    # 当前应用名称
+    name: provider
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+eureka:
+  client:
+    service-url:
+      # 注册中心的访问地址
+      defaultZone: http://127.0.0.1:8761/eureka/
+  instance:
+    # 是否将当前服务的IP地址注册到Eureka Server
+    prefer-ip-address: false

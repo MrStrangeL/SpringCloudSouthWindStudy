@@ -1,0 +1,18 @@
+server:
+  port: 8020
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  application:
+    name: consumer
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+  instance:
+    prefer-ip-address: false
