@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-client" />
-        <module name="eureka-server" />
-        <module name="ribbon" />
+        <module name="hystrix" />
         <module name="gateway" />
+        <module name="eureka-server" />
+        <module name="eureka-client" />
         <module name="provider" />
+        <module name="feign" />
+        <module name="ribbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,7 +26,9 @@
       <module name="euraka-server" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="feign" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="hystrix" options="-parameters" />
       <module name="provider" options="-parameters" />
       <module name="ribbon" options="-parameters" />
     </option>

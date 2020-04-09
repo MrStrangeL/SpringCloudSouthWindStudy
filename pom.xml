@@ -14,6 +14,8 @@
         <module>eureka-client</module>
         <module>gateway</module>
         <module>ribbon</module>
+        <module>feign</module>
+        <module>hystrix</module>
     </modules>
 
     <!-- 引入 Spring Boot 的依赖 -->

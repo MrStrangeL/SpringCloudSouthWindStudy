@@ -11,11 +11,11 @@ import java.util.Collection;
 @RequestMapping("/ribbon")
 @RestController
 public class RibbonHandler {
-//    @Autowired
-//    private RestOperations restTemplate;
-
     @Autowired
-    private RestTemplate restTemplate;
+    private RestOperations restTemplate;
+
+//    @Autowired
+//    private RestTemplate restTemplate;
 
     @GetMapping("/index")
     public String index(){
