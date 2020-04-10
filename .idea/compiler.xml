@@ -7,14 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="native-config-client" />
+        <module name="hystrix" />
         <module name="gateway" />
         <module name="eureka-server" />
         <module name="feign" />
         <module name="eureka-client" />
         <module name="provider" />
         <module name="native-config-server" />
-        <module name="hystrix" />
+        <module name="native-config-client" />
         <module name="ribbon" />
         <module name="remote-config-client" />
         <module name="remote-config-server" />
@@ -22,6 +22,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="euraka-server" target="1.8" />
+      <module name="zipkin-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -39,6 +40,7 @@
       <module name="remote-config-client" options="-parameters" />
       <module name="remote-config-server" options="-parameters" />
       <module name="ribbon" options="-parameters" />
+      <module name="zipkin-server" options="-parameters" />
     </option>
   </component>
 </project>
