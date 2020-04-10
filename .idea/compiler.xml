@@ -12,8 +12,10 @@
         <module name="eureka-server" />
         <module name="eureka-client" />
         <module name="provider" />
+        <module name="native-config-server" />
         <module name="feign" />
         <module name="ribbon" />
+        <module name="native-config-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +31,8 @@
       <module name="feign" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="hystrix" options="-parameters" />
+      <module name="native-config-client" options="-parameters" />
+      <module name="native-config-server" options="-parameters" />
       <module name="provider" options="-parameters" />
       <module name="ribbon" options="-parameters" />
     </option>

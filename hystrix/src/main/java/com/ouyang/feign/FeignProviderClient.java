@@ -1,12 +1,13 @@
 package com.ouyang.feign;
 
 import com.ouyang.entity.Student;
+import com.ouyang.feign.imp.FeignProviderClientImp;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
 
-@FeignClient(value = "provider")
+@FeignClient(value = "provider",fallback = FeignProviderClientImp.class)
 public interface FeignProviderClient {
     @GetMapping("/student/index")
     String index();
