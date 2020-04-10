@@ -18,6 +18,8 @@
         <module>hystrix</module>
         <module>native-config-server</module>
         <module>native-config-client</module>
+        <module>remote-config-server</module>
+        <module>remote-config-client</module>
     </modules>
 
     <!-- 引入 Spring Boot 的依赖 -->

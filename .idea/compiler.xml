@@ -7,15 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hystrix" />
+        <module name="native-config-client" />
         <module name="gateway" />
         <module name="eureka-server" />
+        <module name="feign" />
         <module name="eureka-client" />
         <module name="provider" />
         <module name="native-config-server" />
-        <module name="feign" />
+        <module name="hystrix" />
         <module name="ribbon" />
-        <module name="native-config-client" />
+        <module name="remote-config-client" />
+        <module name="remote-config-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,6 +36,8 @@
       <module name="native-config-client" options="-parameters" />
       <module name="native-config-server" options="-parameters" />
       <module name="provider" options="-parameters" />
+      <module name="remote-config-client" options="-parameters" />
+      <module name="remote-config-server" options="-parameters" />
       <module name="ribbon" options="-parameters" />
     </option>
   </component>

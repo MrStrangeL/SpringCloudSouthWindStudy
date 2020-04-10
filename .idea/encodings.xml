@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/native-config-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/native-config-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remote-config-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/remote-config-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ribbon/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
