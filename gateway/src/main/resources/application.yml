@@ -6,7 +6,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://127.0.0.1:8761/eureka/
   instance:
     prefer-ip-address: false
 zuul:
@@ -28,7 +28,7 @@ ribbon:
     enabled: false
 provider:
   ribbon:
-    listOfServers: http://localhost:8010/,http://localhost:8050/
+    listOfServers: http://127.0.0.1:8010/,http://127.0.0.1:8050/
 consumer:
   ribbon:
-    listOfServers: http://localhost:8020/
+    listOfServers: http://127.0.0.1:8020/

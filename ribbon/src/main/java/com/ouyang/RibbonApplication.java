@@ -10,6 +10,7 @@ import org.springframework.web.client.RestOperations;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
+@EnableEurekaClient
 public class RibbonApplication {
     public static void main(String[] args){
         SpringApplication.run(RibbonApplication.class,args);

@@ -20,6 +20,7 @@
         <module>native-config-client</module>
         <module>remote-config-server</module>
         <module>remote-config-client</module>
+        <module>zipkin-client</module>
     </modules>
 
     <!-- 引入 Spring Boot 的依赖 -->

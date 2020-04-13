@@ -10,13 +10,15 @@
         <module name="hystrix" />
         <module name="gateway" />
         <module name="eureka-server" />
-        <module name="feign" />
         <module name="eureka-client" />
         <module name="provider" />
-        <module name="native-config-server" />
+        <module name="zipkin-server" />
+        <module name="feign" />
         <module name="native-config-client" />
         <module name="ribbon" />
         <module name="remote-config-client" />
+        <module name="native-config-server" />
+        <module name="zipkin-client" />
         <module name="remote-config-server" />
       </profile>
     </annotationProcessing>
@@ -40,6 +42,7 @@
       <module name="remote-config-client" options="-parameters" />
       <module name="remote-config-server" options="-parameters" />
       <module name="ribbon" options="-parameters" />
+      <module name="zipkin-client" options="-parameters" />
       <module name="zipkin-server" options="-parameters" />
     </option>
   </component>

@@ -1,0 +1,29 @@
+server:
+    port: 8100
+spring:
+    application:
+        name: zipkin-client
+    sleuth:
+        web:
+          client:
+            enabled: true
+        sampler:
+            probability: 1.0
+    zipkin:
+        base-url: http://127.0.0.1:9411/
+management:
+    security:
+        enabled: false
+    endpoints:
+            web:
+                exposure:
+                    include: 'hystrix.stream'
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://127.0.0.1:8761/eureka/
+    instance:
+        prefer-ip-address: false
+feign:
+    hystrix:
+        enabled: true

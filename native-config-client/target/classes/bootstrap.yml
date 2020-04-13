@@ -7,6 +7,6 @@ spring:
     cloud:
         config:
             # 配置中心的访问路径
-            uri: http://localhost:8762
+            uri: http://127.0.0.1:8762
             # 客户端优先判断配置中心获取是否正常，并快速响应失败内容
             fail-fast: true
