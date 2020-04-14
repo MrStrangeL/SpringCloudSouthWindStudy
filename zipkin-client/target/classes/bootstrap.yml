@@ -1,0 +1,9 @@
+spring:
+    cloud:
+        config:
+            name: zipkin-client
+            label: master
+            discovery:
+                enabled: true
+                serviceId: remote-config-server
+            profile: dev
