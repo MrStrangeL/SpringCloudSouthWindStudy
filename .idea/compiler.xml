@@ -7,23 +7,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hystrix" />
-        <module name="gateway" />
-        <module name="eureka-server" />
-        <module name="eureka-client" />
-        <module name="provider" />
-        <module name="zipkin-server" />
-        <module name="feign" />
-        <module name="native-config-client" />
         <module name="ribbon" />
         <module name="remote-config-client" />
         <module name="native-config-server" />
-        <module name="zipkin-client" />
+        <module name="nacos-provider" />
+        <module name="eureka-client" />
         <module name="remote-config-server" />
+        <module name="feign" />
+        <module name="provider" />
+        <module name="hystrix" />
+        <module name="nacos-consumer" />
+        <module name="zipkin-server" />
+        <module name="zipkin-client" />
+        <module name="eureka-server" />
+        <module name="nacos-client" />
+        <module name="native-config-client" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="euraka-server" target="1.8" />
+      <module name="nacos-client" target="1.8" />
       <module name="zipkin-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -36,6 +40,9 @@
       <module name="feign" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="hystrix" options="-parameters" />
+      <module name="nacos-client" options="-parameters" />
+      <module name="nacos-consumer" options="-parameters" />
+      <module name="nacos-provider" options="-parameters" />
       <module name="native-config-client" options="-parameters" />
       <module name="native-config-server" options="-parameters" />
       <module name="provider" options="-parameters" />
