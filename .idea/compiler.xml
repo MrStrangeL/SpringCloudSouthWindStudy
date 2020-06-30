@@ -23,6 +23,7 @@
         <module name="nacos-client" />
         <module name="native-config-client" />
         <module name="gateway" />
+        <module name="geteway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,6 +40,7 @@
       <module name="eureka-server" options="-parameters" />
       <module name="feign" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="geteway" options="-parameters" />
       <module name="hystrix" options="-parameters" />
       <module name="nacos-client" options="-parameters" />
       <module name="nacos-consumer" options="-parameters" />
